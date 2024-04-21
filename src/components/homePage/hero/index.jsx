@@ -4,7 +4,7 @@ import styles from './style.module.css'
 function Hero() {
    return(
       <>
-         <h1>Hero</h1>
+         
       </>
    )
 }

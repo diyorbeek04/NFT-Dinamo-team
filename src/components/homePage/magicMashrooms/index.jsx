@@ -4,7 +4,7 @@ import styles from './style.module.css'
 function MagicMashrooms() {
    return(
       <>
-         <h1>MagicMashrooms</h1>
+        
       </>
    )
 }

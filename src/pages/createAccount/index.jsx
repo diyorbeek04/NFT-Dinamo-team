@@ -7,6 +7,7 @@ function CreateAccount() {
    return(
       <>
          <CreateAccountComponent/>
+         
       </>
    )
 }

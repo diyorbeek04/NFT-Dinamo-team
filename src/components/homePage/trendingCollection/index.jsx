@@ -4,7 +4,7 @@ import styles from './style.module.css'
 function TrendingCollection() {
    return(
       <>
-         <h1>TrendingCollection</h1>
+         
       </>
    )
 }

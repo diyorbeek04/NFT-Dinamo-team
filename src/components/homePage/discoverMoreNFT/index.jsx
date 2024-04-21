@@ -4,7 +4,7 @@ import styles from './style.module.css'
 function DiscoverMoreNFT() {
    return(
       <>
-         <h1>DiscoverMoreNFT</h1>
+        
       </>
    )
 }

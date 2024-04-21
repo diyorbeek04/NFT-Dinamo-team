@@ -4,7 +4,7 @@ import styles from './style.module.css'
 function JoinOurWeekly() {
    return(
       <>
-         <h1>JoinOurWeekly</h1>
+         
       </>
    )
 }
