@@ -1,3 +1,4 @@
+import { dividerClasses } from '@mui/material';
 import './App.css';
 import Layout from './layout';
 import HomePage from './pages/homePage';
