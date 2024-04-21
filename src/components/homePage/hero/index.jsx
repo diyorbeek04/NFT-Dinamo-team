@@ -3,6 +3,7 @@ import styles from './style.module.css'
 import { Link } from "react-router-dom";
 import heroImg from './image/hero.png'
 import Avatar from './image/avatar.png'
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 function Hero() {
    return (
       <>
@@ -16,7 +17,7 @@ function Hero() {
                      <p className={styles.p}>
                         NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.
                      </p>
-                     <Link className={styles.link__create} to={"/create-account"}>Get Started</Link>
+                     <Link className={styles.link__create} to={"/create-account"}><RocketLaunchIcon/>Get Started</Link>
                      <div className={styles.bottom}>
                         <ul className={styles.ul}>
                            <li className={styles.li}>

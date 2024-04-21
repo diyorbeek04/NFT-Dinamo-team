@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './style.module.css'
 import axios from "axios";
-import { Navigate } from "react-router-dom";
+import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
+
 
 
 function TopCreators() {
@@ -28,7 +29,7 @@ function TopCreators() {
                         Checkout Top Rated Creators on the NFT Marketplace
                      </p>
                   </div>
-                  <Link className={styles.button} to={'/ranking'}>View Rankings</Link>
+                  <Link className={styles.button} to={'/ranking'}><RocketLaunchIcon/>View Rankings</Link>
                </div>
                <div className={styles.card}>
                   {data?.data?.map((elem, index) =>

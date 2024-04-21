@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from './style.module.css'
 import { Link } from "react-router-dom";
 import axios from "axios";
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 
 function DiscoverMoreNFT() {
    const [data, setData] = useState([])
@@ -23,7 +24,7 @@ function DiscoverMoreNFT() {
                      Explore new trending NFTs
                   </p>
                </div>
-               <Link className={styles.button} to={'/marketplaceg'}>See All</Link>
+               <Link className={styles.button} to={'/marketplaceg'}><RemoveRedEyeIcon/>See All</Link>
             </div>
             <div className={styles.card}>
                {data?.data?.map((elem, index) =>
