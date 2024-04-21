@@ -18,8 +18,8 @@ function Hero() {
                      </p>
                      <Link className={styles.link__create} to={"/create-account"}>Get Started</Link>
                      <div className={styles.bottom}>
-                        <ul>
-                           <li>
+                        <ul className={styles.ul}>
+                           <li className={styles.li}>
                               <h3 className={styles.h3}>240k+ </h3>
                               <p className={styles.li__p}>Total Sale</p>
                            </li>
@@ -35,7 +35,7 @@ function Hero() {
                      </div>
                   </div>
                   <div className={styles.right}>
-                     <img src={heroImg} alt="hero img" />
+                     <img className={styles.img} src={heroImg} alt="hero img" />
                      <h2 className={styles.h2}>Space Walking</h2>
                   <div className={styles.right__bottom}>
                      <img src={Avatar} alt="avatar" />

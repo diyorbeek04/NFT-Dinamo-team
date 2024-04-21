@@ -14,7 +14,7 @@ function HowItWorks() {
             </div>
             <div className={styles.card}>
                <div className={styles.box}>
-                  <img src={image} alt="image" />
+                  <img className={styles.img} src={image} alt="image" />
                   <div className={styles.desc}>
                      <h3 className={styles.h3}>
                         Setup Your wallet
@@ -25,7 +25,7 @@ function HowItWorks() {
                   </div>
                </div>
                <div className={styles.box}>
-                  <img src={image} alt="image" />
+                  <img className={styles.img} src={image} alt="image" />
                   <div className={styles.desc}>
                      <h3 className={styles.h3}>
                      Create Collection
@@ -36,7 +36,7 @@ function HowItWorks() {
                   </div>
                </div>
                <div className={styles.box}>
-                  <img src={image} alt="image" />
+                  <img className={styles.img} src={image} alt="image" />
                   <div className={styles.desc}>
                      <h3 className={styles.h3}>
                      Start Earning

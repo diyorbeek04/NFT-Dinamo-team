@@ -8,6 +8,7 @@ import img5 from './image/video.png'
 import img6 from './image/Utility.png'
 import img7 from './image/video.png'
 import img8 from './image/VirtualWorlds.png'
+import { Link } from "react-router-dom";
 
 function BrowseCategory() {
    return (
@@ -17,55 +18,70 @@ function BrowseCategory() {
                <div className={styles.categories}>
                   <h2 className={styles.h2}>Browse Categories</h2>
                   <div className={styles.card}>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img1} alt="categories image" />
-                        <p className={styles.p}>
-                           Art
-                        </p>
-                     </div>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img2} alt="categories image" />
-                        <p className={styles.p}>
-                           Collectibles
-                        </p>
-                     </div>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img3} alt="categories image" />
-                        <p className={styles.p}>
-                           Music
-                        </p>
-                     </div>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img4} alt="categories image" />
-                        <p className={styles.p}>
-                           Photography
-                        </p>
-                     </div>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img5} alt="categories image" />
-                        <p className={styles.p}>
-                           Video
-                        </p>
-                     </div>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img6} alt="categories image" />
-                        <p className={styles.p}>
-                           Utility
-                        </p>
-                     </div>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img7} alt="categories image" />
-                        <p className={styles.p}>
-                           Sport
-                        </p>
-                     </div>
-                     <div className={styles.box}>
-                        <img className={styles.img} src={img8} alt="categories image" />
-                        <p className={styles.p}>
-                           Virtual Worlds
-                        </p>
-                     </div>
-
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img1} alt="categories image" />
+                           <p className={styles.p}>
+                              Art
+                           </p>
+                        </div>
+                     </Link>
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img2} alt="categories image" />
+                           <p className={styles.p}>
+                              Collectibles
+                           </p>
+                        </div>
+                     </Link>
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img3} alt="categories image" />
+                           <p className={styles.p}>
+                              Music
+                           </p>
+                        </div>
+                     </Link>
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img4} alt="categories image" />
+                           <p className={styles.p}>
+                              Photography
+                           </p>
+                        </div>
+                     </Link>
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img5} alt="categories image" />
+                           <p className={styles.p}>
+                              Video
+                           </p>
+                        </div>
+                     </Link>
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img6} alt="categories image" />
+                           <p className={styles.p}>
+                              Utility
+                           </p>
+                        </div>
+                     </Link>
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img7} alt="categories image" />
+                           <p className={styles.p}>
+                              Sport
+                           </p>
+                        </div>
+                     </Link>
+                     <Link to={'/marketplace'}>
+                        <div className={styles.box}>
+                           <img className={styles.img} src={img8} alt="categories image" />
+                           <p className={styles.p}>
+                              Virtual Worlds
+                           </p>
+                        </div>
+                     </Link>
                   </div>
                </div>
             </div>

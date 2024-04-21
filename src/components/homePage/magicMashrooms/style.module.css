@@ -8,3 +8,8 @@ image{
     margin: 0px auto;
     padding: 80px 10px;
  }
+ @media only screen and (max-width: 1200px){
+    .container{
+      display: none;
+    }
+ }

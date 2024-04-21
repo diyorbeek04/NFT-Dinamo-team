@@ -27,6 +27,7 @@ function DiscoverMoreNFT() {
             </div>
             <div className={styles.card}>
                {data?.data?.map((elem, index) =>
+                  <Link className={styles.link} to={'/nft'}>
                   <div className={styles.box}>
                      <img className={styles.img} src={elem.NFTImage} alt="image" />
                      <div className={styles.desc}>
@@ -47,6 +48,7 @@ function DiscoverMoreNFT() {
                         </div>
                      </div>
                   </div>
+                  </Link>
                )}
             </div>
          </div>

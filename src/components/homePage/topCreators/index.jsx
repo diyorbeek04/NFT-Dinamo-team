@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './style.module.css'
 import axios from "axios";
+import { Navigate } from "react-router-dom";
 
 
 function TopCreators() {
@@ -31,17 +32,21 @@ function TopCreators() {
                </div>
                <div className={styles.card}>
                   {data?.data?.map((elem, index) =>
+                    <Link className={styles.link} to={'/artist'}>
                      <div className={styles.box} key={index}>
                         <div className={styles.box__top}>
                            <div className={styles.id}>{elem.id}</div>
                            <img className={styles.box__img} src={elem.creatorImage} alt="creator image" />
                         </div>
-                        <h3 className={styles.name}>{elem.creatorTitle}</h3>
+                       <div className={styles.desc}>
+                       <h3 className={styles.name}>{elem.creatorTitle}</h3>
                         <div className={styles.box__bottom}>
                             <p className={styles.box__p}>Total Sales:</p>
                             <span className={styles.price}>{elem.price}</span>
                         </div>
+                       </div>
                      </div>
+                    </Link>
                   )}
                </div>
             </div>
