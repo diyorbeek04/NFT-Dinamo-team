@@ -17,19 +17,6 @@ function NotFound() {
    <a class="bg_links logo"></a>
 </div>
 
-    <nav>
-        <div class="menu">
-            <p class="website_name">LOGO</p>
-            <div class="menu_links">
-                <a href="" class="link">about</a>
-                <a href="" class="link">projects</a>
-                <a href="" class="link">contacts</a>
-            </div>
-            <div class="menu_icon">
-                <span class="icon"></span>
-            </div>
-        </div>
-    </nav>
 
     <section class="wrapper">
 
@@ -72,7 +59,7 @@ function NotFound() {
             <div class="text">
                 <article>
                     <p>Uh oh! Looks like you got lost. Go back to the homepage if you dare!</p>
-                    <button>i dare!</button>
+                    
                 </article>
             </div>
 
