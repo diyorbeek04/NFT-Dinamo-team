@@ -98,7 +98,9 @@
    Width: 330px;
    Height: 295px;
 }
-
+.card__set{
+   transform: translateY(-20px);
+}
 .card__pk {
    width: 270px;
    height: 31px;
@@ -122,8 +124,8 @@
 
 .card__sas {
    padding: 0px 0px 0px 30px;
-   margin-top: -30px;
    color: #858584;
+   margin-top: 30px;
 
 }
 
@@ -161,6 +163,7 @@
 
 .card__smuzi {
    display: flex;
+   margin-top: 80px;
    }
    .rank__sorch{
        width: 330px;

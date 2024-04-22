@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './style.module.css'
 import imageCreate from '../../assets/images/createAccount/Image Placeholder.png'
-import PersonIcon from '@mui/icons-material/Person';
 
 function CreateAccountComponent() {
    return(
