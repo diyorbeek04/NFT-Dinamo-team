@@ -1,0 +1,131 @@
+.container {
+   max-width: 1240px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+.brow {
+   width: 100%;
+   background: #2B2B2B;
+}
+
+.browse {
+   width: 100%;
+   padding: 80px 0px;
+}
+
+.browse__manu {
+   width: auto;
+   flex-wrap: wrap;
+}
+
+.browse__h1 {
+   font-family: Work Sans;
+   font-size: 51px;
+   font-weight: 600;
+   line-height: 56.1px;
+   text-align: left;
+   color: white;
+}
+
+.browse__p {
+   font-family: Work Sans;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 35.2px;
+   text-align: left;
+   color: white;
+}
+
+.browse__p {
+
+   font-family: Work Sans;
+   font-size: 22px;
+   font-weight: 400;
+   color: #cac1c1;
+   margin-top: -25px;
+
+}
+.browse__input{
+   width: 86%;
+   background: transparent;
+   height: 30px;
+   border: none;
+   border: 1px solid  #3B3B3B;
+   padding: 0px 0px 0px 20px;
+   border-radius: 10px;
+   color: white;
+}
+.dashboard{
+   height: 80px;
+   background: #2B2B2B;
+   border: 1px solid #3B3B3B;
+}
+.dashboard__fara{
+   width: 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: -30px;
+}
+.dashboard__h6{
+color: white;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: center;
+}
+.dashboard__button{
+   width: 45px;
+   height: 24px;
+   border-radius: 20px;
+   border: none;
+   background: #858584; 
+   color: white;
+}
+.dashboard__center{
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 0px 0px 150px;
+}
+.dashboard__hp{
+
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: center;
+color: #858584;
+
+}
+@media only screen and (max-width:1150px) {
+   .dashboard__center{
+       width: 60%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px 0px 0px 150px;
+   }
+}
+@media only screen and (max-width:776px) {
+   .dashboard__center{
+       width: 60%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px 0px 0px 80px;
+   }
+   .dashboard__button{
+       width: 45px;
+       height: 24px;
+       border-radius: 20px;
+       border: none;
+       background: #858584; 
+       color: white;
+       display: none;
+   }
+}

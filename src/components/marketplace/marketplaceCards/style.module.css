@@ -1,4 +1,210 @@
 
 .left{
-    background: red;
+   background: red;
+}
+
+.card__set {
+   color: #858584;
+
+}
+
+.browse__imput {
+   width: 69%;
+   height: 50px;
+   border-radius: 10px;
+   background: transparent;
+   border: none;
+   border: 1px solid #3B3B3B;
+
+   font-family: Work Sans;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22.4px;
+   color: white;
+}
+
+.browse.get {
+   width: 100%;
+}
+
+.browse__mane {
+   width: 100%;
+   height: 65px;
+   border: 1px solid #3B3B3B;
+   margin-top: 80px;
+}
+
+.browse__icon {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.browse__h6 {
+   font-family: Work Sans;
+   font-size: 15px;
+   color: white;
+   padding: 0px 0px 0px 280px;
+   margin-top: 30px;
+}
+
+.browse__h6k {
+   font-family: Work Sans;
+   font-size: 17px;
+   color: white;
+   padding: 0px 0px 0px 220px;
+   margin-top: 30px;
+   color: #858584;
+}
+
+.browse__button {
+   width: 50px;
+   height: 28px;
+   border-radius: 10px;
+   border: none;
+   background: #858584;
+   color: white;
+   margin-top: 20px;
+   padding: 0px 0px 0px 0px;
+   transform: translate(-120px) translateY(5px);
+}
+
+.browse__get {
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.cardu {
+   background: #3B3B3B;
+}
+
+.cards {
+   width: 100%;
+   height: 2100px;
+   transform: translateY(40px);
+}
+
+.cards__imba {
+   width: 330px;
+   height: 460px;
+   background: #2B2B2B;
+   transform: translate(80px) translateY(50px);
+   border-radius: 20px 25px 20px 25px;
+   margin-bottom: 30px;
+}
+
+.cards__img {
+   Width: 330px;
+   Height: 295px;
+}
+
+.card__pk {
+   width: 270px;
+   height: 31px;
+   font-family: Work Sans;
+   font-size: 19px;
+   color: white;
+}
+
+.card__pi {
+   width: 234px;
+   height: 22px;
+
+   font-family: Space Mono;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22.4px;
+   text-align: left;
+   color: white;
+   margin-top: -50px;
+}
+
+.card__sas {
+   padding: 0px 0px 0px 30px;
+   margin-top: -30px;
+   color: #858584;
+
+}
+
+.cards__card {
+   width: 87%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.cards__funci{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+/* .browse__mane {
+
+} */
+
+.card__men {
+   width: 114px;
+   height: 22px;
+
+   font-family: Space Mono;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 22.4px;
+   text-align: left;
+   color: white;
+   margin-top: -13px;
+}
+
+.card__emeil {
+   padding: 0px 0px 0px 30px;
+}
+
+.card__smuzi {
+   display: flex;
+   }
+   .rank__sorch{
+       width: 330px;
+       height: 460px;
+       background: #2B2B2B;
+       transform: translate(80px) translateY(50px);
+       border-radius: 20px 20px 20px 20px;
+       margin-bottom: 30px;
+   }
+   .cards__flex{
+       width: 330px;
+       height: 460px;
+       background: #2B2B2B;
+       transform: translate(80px) translateY(50px);
+       border-radius: 20px 20px 20px 20px;
+       margin-bottom: 30px;
+   }
+   
+   @media only screen and (max-width:1150px) {
+   .rank__sorch{
+       width: 330px;
+       height: 460px;
+       background: red;
+       transform: translate(80px) translateY(50px);
+       border-radius: 20px 20px 20px 20px;
+       margin-bottom: 10px;
+       display: none;
+   }
+   
+}   
+@media only screen and (max-width:776px) {
+   .cards__flex{
+       width: 330px;
+       height: 460px;
+       background: #2B2B2B;
+       transform: translate(80px) translateY(50px);
+       border-radius: 20px 20px 20px 20px;
+       margin-bottom: 30px;
+       display: none;
+   }
+   .cards {
+       width: 100%;
+       height: 2550px;
+       transform: translateY(40px);
+   }
+   
 }
