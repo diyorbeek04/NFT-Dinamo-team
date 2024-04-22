@@ -1,0 +1,99 @@
+body{
+ background-color: #2B2B2B;
+}
+.BrowseCategories{
+ background-color: #2B2B2B;
+   width: 100%;
+   padding: 60px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 0px 10px;
+ }
+ .h2{
+ color: #fff;
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 600;
+line-height: 45.6px;
+text-align: left;
+margin: 0;
+ }
+ .card{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+ padding: 0;
+ }
+ .box{
+    width: 240px;
+    height: 316px;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+   margin: 10px 5px;
+ }
+ .p{
+   color: #fff;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: left;
+padding: 20px 30px;
+margin: 0;
+ }
+@media only screen and (max-width: 1040px)    {
+   .box{
+      width: 200px;
+      height: 306px;
+   }
+   .img{
+      width: 200px;
+   }
+}
+@media only screen and (max-width: 860px)   {
+   .box{
+      width: 160px;
+      height: 236px;
+   }
+   .img{
+      width: 160px;
+   }
+   .p{
+      font-size: 16px;
+   }
+}
+@media only screen and (max-width: 705px)   {
+   .box{
+      width: 150px;
+      height: 220px;
+   }
+   .img{
+      width: 150px;
+   }
+}
+@media only screen and (max-width: 661px)   {
+.card{
+   padding: 0px 100px;
+}
+.h2{
+   font-size: 30px;
+}
+}
+@media only screen and (max-width: 545px)   {
+   .card{
+      padding: 0px 50px;
+      justify-content: space-evenly;
+   }
+}
+@media only screen and (max-width: 450px)   {
+   .card{
+      padding: 0px 8px;
+      justify-content: space-evenly;
+   }
+   
+}

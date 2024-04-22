@@ -1,0 +1,150 @@
+.container{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 0px 10px;
+ }
+ .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .top__left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .h2{
+  color: #fff;
+font-family: Work Sans;
+font-size: 38px;
+font-weight: 600;
+line-height: 45.6px;
+text-align: left;
+margin: 0;
+ }
+ .p{
+  color: #fff;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 400;
+line-height: 35.2px;
+text-align: left;
+margin: 0;
+ }
+.button{
+    font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;text-align: center;
+color: #fff;
+text-decoration: none;
+border: 2px solid #A259FF;
+border-radius: 20px;
+align-items: center;
+display: flex;
+padding: 15px 50px;
+gap: 10px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+.box{
+    width: 330px;
+    height: 469px;
+    border-radius: 20px;
+    background-color: #3b3b3b;
+}
+.img{
+    width: 330px;
+    height: 296px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.desc{
+    padding: 20px 30px;
+}
+.h3{
+   color: #fff;
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 30.8px;
+text-align: left;
+margin: 0;
+}
+.icon{
+    border-radius: 50%;
+}
+.center{
+    display: flex;
+  gap: 10px;
+    align-items: center;
+    margin: 8px 0;
+}
+.iconName{
+  color: #fff;
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    margin: 0;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+.pp{
+  color: #858584;
+font-family: Space Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 13.2px;
+text-align: left;
+margin: 0;
+}
+.price{
+color: #fff;
+font-family: Space Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+margin: 5px 0 0 0;
+
+}
+
+@media only screen and (max-width: 1040px)     {
+    .link:nth-child(3){
+        display: none ;
+    }
+    .card{
+        justify-content: space-evenly;
+    }
+}
+@media only screen and (max-width: 700px)    {
+    .card{
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .h2{
+
+      font-size: 30px;
+       }
+       .p{
+    font-size: 18px;
+       }
+}
+@media only screen and (max-width: 500px) {
+.top{
+    flex-direction: column;
+    gap: 30px;
+}
+}
