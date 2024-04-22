@@ -11,7 +11,9 @@ function Header() {
          <div className={styles.container}>
             <div className={styles.navbar}>
                <div className={styles.logo}>
+                  <Link to={'/'}>
                   <img src={logo} alt="site logo" />
+                  </Link>
                </div>
                <div className={styles.menu}>
                   <Link className={styles.link} to={"/marketplace"}>Marketplace</Link>

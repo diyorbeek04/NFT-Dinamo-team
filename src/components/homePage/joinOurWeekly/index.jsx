@@ -17,8 +17,8 @@ function JoinOurWeekly() {
                      Get exclusive promotions & updates straight to your inbox.
                   </p>
                   <form>
-                     <input type="text" placeholder="Enter your email here" required />
-                     <button type="submit">Subscribe</button>
+                     <input className={styles.input} type="text" placeholder="Enter your email here" required />
+                     <button className={styles.button} type="submit">Subscribe</button>
                   </form>
                </div>
             </div>

@@ -1,13 +1,12 @@
-image{
+.mashrooms{
+  width: 100%;
+  height: auto;
+}
+.mashroomsImage{
     width: 100%;
     height: 100%;
 }
-.container{
-    width: 100%;
-    max-width: 1240px;
-    margin: 0px auto;
-    padding: 80px 10px;
- }
+
  @media only screen and (max-width: 1200px){
     .container{
       display: none;

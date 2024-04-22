@@ -42,37 +42,36 @@ margin: 0;
 form{
     display: flex;
 }
-input{
+.input{
     width:  425px;
-
-padding: 25px 0px 25px 20px;
-gap: 12px;
-border-radius: 20px;
-background-color: #fff;
-color: #2b2b2b;
-font-family: Work Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 22.4px;
-text-align: left;
+    padding: 20px 0px 20px 20px;
+    gap: 12px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #2b2b2b;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
 
 }
 
-button{
+.button{
     width: 211px;
-height:  (60px);
-padding: 0px 50px;
-gap: 12px;
-border-radius: 20px;
-background-color: #a259ff;
-border: none;
-transform: translate(-100px);
-font-family: Work Sans;
-font-size: 16px;
-font-weight: 600;
-line-height: 22.4px;
-text-align: center;
-color: #fff;
+    height:  (60px);
+    padding: 0px 50px;
+    gap: 12px;
+    border-radius: 30px;
+    background-color: #a259ff;
+    border: none;
+    transform: translate(-100px);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: center;
+    color: #fff;
 }
 
 @media only screen and (max-width: 1180px) {

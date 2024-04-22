@@ -5,10 +5,9 @@ import magic from './image/magic.png'
 function MagicMashrooms() {
    return(
       <>
-        
-     <div className={styles.container}>
-     <img  src={magic} alt="magic" />
-     </div>
+         <div className={styles.mashrooms}>
+           <img className={styles.mashroomsImage}  src={magic} alt="magic" />
+         </div>
       </>
    )
 }

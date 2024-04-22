@@ -14,7 +14,9 @@ function Footer() {
          <div className={styles.container}>
             <div className={styles.footer__top}>
                <div className={styles.footer__top_left}>
-                  <img src={logo} alt="logo" />
+               <Link to={'/'}>
+                  <img src={logo} alt="site logo" />
+                  </Link>
                   <p>NFT marketplace UI created with Anima for Figma.</p>
                   <p>Join our community</p>
                   <div className={styles.icons}>
