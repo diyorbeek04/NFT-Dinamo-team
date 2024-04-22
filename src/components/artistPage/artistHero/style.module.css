@@ -1,0 +1,181 @@
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    background-color: #2B2B2B;
+
+}
+
+.anime__h3 {
+
+
+    font-family: Work Sans;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56.1px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.anime__ul__li__h3 {
+
+    font-family: Space Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.2px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+
+}
+
+.anime__ul__li__p {
+
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.anime__ul__li {
+    list-style-type: none;
+
+}
+
+.img__avatar {
+    position: relative;
+    bottom: -250px;
+    right: -50px;
+    border: none;
+}
+
+.anime__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 510px;
+    margin-left: -40px;
+}
+
+.anime__ends__h3 {
+
+    font-family: Space Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.2px;
+    text-align: left;
+    color: #858584;
+
+}
+
+.anime__ends__p {
+    font-family: Work Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    text-align: left;
+    color: #FFFFFF;
+
+
+}
+
+.anime__bottom {
+    flex-direction: column;
+}
+
+/* 
+
+.anime__button__but1 {
+    width: 186px;
+    height: 60px;
+    border-radius: 20px;
+    background: #A259FF;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.anime__button__but2 {
+    width: 145px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px ;
+    border: 2px solid #A259FF;
+    background-color:#2B2B2B;
+    color: white;
+} */
+
+.anime__button {
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.img__avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.section {
+    background-image: url(./images/shiphero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 320px;
+}
+
+@media only screen and (max-width:530px) {
+
+    .anime__ul__li__h3 {
+        font-family: Space Mono;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 35.2px;
+        text-align: left;
+    }
+
+    .anime__ul__li__p {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+
+    }
+
+    .anime__ul {
+        width: 315px;
+    }
+
+    .anime__ends__h3 {
+        font-family: Space Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+
+    }
+
+    .anime__ends__p {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+    }
+    .section {
+        background-image: url(./images/shiphero.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        width: 100%;
+        height: 320px;
+    }
+}
