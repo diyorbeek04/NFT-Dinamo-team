@@ -47,16 +47,19 @@ padding: 15px 50px;
 gap: 10px;
 }
 .card{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 60px 0;
+    flex-wrap: wrap;
 }
 .box{
     width: 330px;
     height: 469px;
     border-radius: 20px;
     background-color: #3b3b3b;
+    margin-bottom: 30px;
 }
 .img{
     width: 330px;
