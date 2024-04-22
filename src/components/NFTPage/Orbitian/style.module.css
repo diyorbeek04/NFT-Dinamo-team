@@ -96,11 +96,6 @@
     line-height: 1.7;
 }
 
-.card__button {
-    background-color: rgb(52, 52, 52);
-    border-radius: 20px;
-}
-
 .card__right {
     width: 27%;
 }
